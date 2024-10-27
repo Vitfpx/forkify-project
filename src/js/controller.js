@@ -128,6 +128,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const a = function () {
+  console.log('Funciona pelo amor de Deus');
+};
+
 // Capture the eventes
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -137,5 +141,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  a();
 };
 init();
