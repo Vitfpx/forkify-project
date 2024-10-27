@@ -3,7 +3,6 @@ import { numberToFraction } from '../helpers.js';
 
 // import icons from '../img/icons.svg'; // Parsel 1
 import icons from 'url:../../img/icons.svg'; // Parsel 2
-import { Fraction } from 'fractional';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
